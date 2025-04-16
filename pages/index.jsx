@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import { Analytics } from "@vercel/analytics/react"
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Resume from "../src/components/Resume";
@@ -82,6 +83,7 @@ const Index = () => {
 
   return (
     <Layout pageClassName={"home"}>
+       <Analytics/>
       {/* Section - Hero Started */}
       <section
         className="lui-section lui-section-hero lui-gradient-top"
