@@ -138,7 +138,7 @@ const Index = () => {
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/1SMOgSkVFC4ZoU9ct9kaXUOLOKulIPWwS/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1f4u2DxG1FMPvhuG8LCsGn_1smbj0-TQh/view?usp=sharing"
                     className="btn"
                   >
                     <span>Descarga mi CV</span>
@@ -240,31 +240,7 @@ const Index = () => {
               className="swiper-container js-services scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span>  UX/UI Design </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Diseño UX/UI </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      {" "}
-                      Diseño de experiencias centradas en el usuario. Creación de interfaces intuitivas y
-                      atractivas que conectan con los usuarios en aplicaciones móviles, sitios web o
-                      productos digitales.{" "}
-                    </div>
-                  </div>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
+              
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
@@ -280,6 +256,31 @@ const Index = () => {
                         Desarrollo de sitios web modernos, optimizados para dispositivos móviles
                         y con un diseño responsive. Desde landing pages hasta sistemas más complejos.
                       </p>
+                    </div>
+                  </div>
+                  <div
+                    className="image"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="services-item">
+                  <div className="lui-subtitle">
+                    <span>  UX/UI Design </span>
+                  </div>
+                  <div className="icon" />
+                  <h5 className="lui-title">
+                    <span> Diseño UX/UI </span>
+                  </h5>
+                  <div className="lui-text">
+                    <div>
+                      {" "}
+                      Diseño de experiencias centradas en el usuario. Creación de interfaces intuitivas y
+                      atractivas que conectan con los usuarios en aplicaciones móviles, sitios web o
+                      productos digitales.{" "}
                     </div>
                   </div>
                   <div

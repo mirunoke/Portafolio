@@ -7,7 +7,7 @@ const educationData = [
     academy: "Universidad Tecnológica de Tula-Tepeji",
     dec: "Honores: Reconocimiento al mejor promedio",
     startYear: "2024",
-    endYear: "2026",
+    endYear: "2025",
   },
   {
     id: 2,
@@ -26,16 +26,24 @@ const experienceData = [
     company: "StartUp UniRoom",
     dec: "Diseñé e implementé una plataforma de gestión para publicar habitaciones y manejar reportes financieros mensuales, liderando el diseño UX/UI para optimizar la experiencia de usuario.",
     startYear: "2024",
-    endYear: "Presente",
+    endYear: "2024",
   },
   {
     id: 2,
+    title: "Desarrollador Frontend",
+    company: "Euroimmun México",
+    dec: "Desarrollé el frontend de un sistema web de gestión documental para el área de calidad en INOCHEM S.A. de C.V., utilizando Next.js, TypeScript y Firebase. Implementé flujos de autenticación, formularios dinámicos, control de accesos por roles y una interfaz intuitiva que optimiza la trazabilidad y automatiza solicitudes.",
+    startYear: "2025",
+    endYear: "2025",
+  },
+  {
+    id: 3,
     title: "Desarrollador FullStack",
     company: "Hospitales Cruz Azul",
     dec: "Rediseñé el sistema de gestión de empleados del área de Capital Humano, mejorando su eficiencia y actualizando funcionalidades clave, implementando clean architecture para optimizar la carga de datos en servidores y diseñando bases de datos para mejorar la correlación y análisis de entidades.",
     startYear: "2024",
     endYear: "2024",
-  },
+  }
 ];
 
 const Resume = () => {
