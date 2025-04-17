@@ -91,7 +91,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     <a>
                       <img
                         decoding="async"
-                        src="assets/images/AV.png"
+                        src="assets/images/av.png"
                         alt="UniRoom"
                       />
                       <span className="overlay" />
